@@ -58,11 +58,7 @@ float readRadius() {
 //*****************************************************************************************************
 
 float findCircumf(float radius) {
-    float circumf;
-
-    circumf = (2 * M_PI) * radius;
-
-    return circumf;     // return (2 * M_PI) * radius;
+    return (2 * M_PI) * radius; // Bug fixed: Simplified the function to directly return the result
 }
 
 //*****************************************************************************************************
